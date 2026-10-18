@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return "test the ci pipeline"
 @app.route("/gate")
 def gate():
     return("Exit the world!")
