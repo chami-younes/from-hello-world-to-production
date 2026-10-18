@@ -23,5 +23,5 @@ jobs:
 
       - name: Build and push the image
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/flask-hello:${{ env.VERSION }} .
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/flask-hello:${{ env.VERSION }}
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/hello-devops:${{ env.VERSION }} .
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/hello-devops:${{ env.VERSION }}
